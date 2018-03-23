@@ -1,6 +1,6 @@
 # Macros para compilacao
 CC = gcc
-CFLAGS = -Wextra
+CFLAGS = -Wextra -w
 DIR = src
 FILENAME = $(DIR)/main.c
 OBJNAME = $(DIR)/main.o
@@ -11,7 +11,7 @@ SRCS := $(shell find $(DIR) -name '*.c')
 OBJS = $(SRCS:.c=.o)
 LEX = lex
 LEXSRCS := $(shell find $(DIR) -name '*.l')
-LEXFLAGS = -lfl
+LEXFLAGS = -lfl -ll
 
 # Macros para teste
 BASH = sh

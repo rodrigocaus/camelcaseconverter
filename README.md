@@ -23,13 +23,12 @@ Entrada | Saida
 ------- | -----
 `CamelCase` | `camel_case`
 `usando_underline` | `UsandoUnderline`
-`CaracteresMistos criando ambiente_misturado` | `caracteres_mistos criando
-AmbienteMisturado`
+`CaracteresMistos criando ambiente_misturado` | `caracteres_mistos criando AmbienteMisturado`
 `MisturaCamel_case_e_underline` | `ERRO`
 
 ## Instruções adicionais
 
 1. Vá diretamente ao conjunto de testes para verificar como tratar casos
    limítrofes ou mal-definidos.
-1. Lembre-se de seguir as [instruções de submissão](docs/instrucoes.md).
+1. Lembre-se de seguir as [instruções de submissão](doc/instrucoes.md).
 1. Se desejar, proponha novos casos de teste.
